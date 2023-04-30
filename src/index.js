@@ -6,7 +6,7 @@ async function loadWeather() {
     weatherBlock.innerHTML = ` <div class="weather__loading">
   <img src="./images/Loading_icon.gif" alt="Loading">
  </div>`;
-    const server = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=Dnipro&appid=7133b1aa183d16d5f3117e10ee321dee';
+    const server = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=Kamianske&appid=7133b1aa183d16d5f3117e10ee321dee';
     const resp = await fetch(server, {
         method: 'GET',
     });
